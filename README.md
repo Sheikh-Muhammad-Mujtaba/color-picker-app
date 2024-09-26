@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Color Picker App
 
-## Getting Started
+A simple and interactive color picker application built with React and TypeScript. This app allows users to select a color, view its HEX and RGB values, and copy them to the clipboard.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Color Selection:** Choose a color using the color input.
+- **Color Display:** See the selected color visually represented.
+- **Value Display:** View the HEX and RGB values of the selected color.
+- **Clipboard Functionality:** Copy the HEX value to your clipboard with a single click.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- React
+- TypeScript
+- Tailwind CSS (for styling)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sheikh-Muhammad-Mujtaba/color-picker-app.git
+   ```
+   
+2. Navigate to the project directory:
+   ```bash
+   cd color-picker-app
+   ```
+   
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Open your browser and navigate to `http://localhost:3000`.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Use the color input to select your desired color.
+2. The selected color will be displayed in a preview box.
+3. The HEX and RGB values will be shown below the color preview.
+4. Click on the "Copy to Clipboard" button to copy the HEX value.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Live Demo
+
+You can check out the live demo of the Color Picker app on vercel
+[Live Demo](#).
