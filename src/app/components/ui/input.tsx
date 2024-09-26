@@ -1,7 +1,14 @@
-import * as React from "react";
-import { cn } from "@/lib/utils";
+import * as React from "react"
 
-const Input = React.forwardRef<HTMLInputElement, React.InputHTMLAttributes<HTMLInputElement>>(
+import { cn } from "@/lib/utils"
+
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+export interface InputProps 
+    extends React.InputHTMLAttributes<HTMLInputElement> {
+      // Additional props can be added here 
+    }
+
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, type, ...props }, ref) => {
     return (
       <input
@@ -13,10 +20,9 @@ const Input = React.forwardRef<HTMLInputElement, React.InputHTMLAttributes<HTMLI
         ref={ref}
         {...props}
       />
-    );
+    )
   }
-);
+)
+Input.displayName = "Input"
 
-Input.displayName = "Input";
-
-export { Input };
+export { Input }
