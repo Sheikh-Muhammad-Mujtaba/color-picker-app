@@ -51,4 +51,4 @@ To run this project locally, follow these steps:
 ## Live Demo
 
 You can check out the live demo of the Color Picker app on vercel
-[Live Demo](#).
+[Live Demo](https://color-picker-app-coral.vercel.app/).
