@@ -4,9 +4,9 @@
 import { useState, ChangeEvent } from "react";
 
 // import custom UI  components
-import { Card, CardTitle, CardDescription } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Card, CardTitle, CardDescription } from "@/app/components/ui/card";
+import { Button } from "@/app/components/ui/button";
+import { Input } from "@/app/components/ui/input";
 
 // default export of the ColorPickerComponent function
 export default function ColorPickerComponent() {
